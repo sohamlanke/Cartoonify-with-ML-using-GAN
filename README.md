@@ -1,3 +1,4 @@
 # Cartoonify-with-ML-using-GAN
-Cartoonify Image using GAN(Generative Adversarial Network)
-<br>Easy Acces with a website frontend
+<ul>
+  <li>Cartoonify Image using GAN(Generative Adversarial Network)</li>
+  <li>Easy Acces with a website frontend</li>
