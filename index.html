@@ -15,12 +15,14 @@
 			  border-left: 2px solid grey;
 			  height: 100%;
 			}
-		
+		.nav-item:hover {
+			  color: yellow;
+			}
     </style>
 </head>
 <body>
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#" style="margin-left: 10px;">Cartoonist</a>
+  <a class="navbar-brand" href="index.html" style="margin-left: 10px;">Cartoonist</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -31,10 +33,10 @@
         <div class="vl"></div>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#" style="margin-left: 15px; margin-right: 15px;">Products</a>
+        <a class="nav-link" href="#uplaodSection" style="margin-left: 15px; margin-right: 15px;">Products</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" style="margin-left: 15px; margin-right: 15px;">Our Team</a>
+        <a class="nav-link" href="team.html" style="margin-left: 15px; margin-right: 15px;">Our Team</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#" style="margin-left: 15px; margin-right: 15px;">Why us</a>
@@ -45,7 +47,7 @@
       
     </ul>
    <form class="form-inline collapse navbar-collapse justify-content-end" style="margin-right: 30px">
-    <button class="btn btn-outline-success rounded-pill pl-2" style="background-color: #65D6CE; color: black" type="button">Signup</button>
+    <button class="btn btn-primary rounded text-light pl-2" type="button">Upload Image</button>
   </form>
   </div>
 </nav>
@@ -57,7 +59,7 @@
 	<div style="width: 100%;">
 		<img class="img-fluid w-100" src="images/Info Section.png">
 	</div>
-	<div style="width: 100%;">
+	<div style="width: 100%;" id="uplaodSection">
 		<div style="display: inline;">
 			<img class="img-fluid" style="width:10%;" src="images/Polygon 1.png">
 			<img class="img-fluid" style="width: 70%;" src="images/Action sec.png">
